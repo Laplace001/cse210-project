@@ -106,7 +106,7 @@ public class Entry
     }
 }
 
-// Manages a collection of journal entries.
+// collection of journal entries section.
 public class Journal
 {
     public List<Entry> _entries = new List<Entry>();
@@ -167,7 +167,7 @@ public class Journal
     }
 }
 
-// Supplies random writing prompts.
+// This section provides random writing prompts.
 public class PromptGenerator
 {
     private List<string> _prompts = new List<string>
